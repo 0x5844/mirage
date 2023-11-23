@@ -1,0 +1,24 @@
+{
+  "cSpell.words": [
+    "crossterm",
+    "decryptor",
+    "Hasher",
+    "Pkcs",
+    "ratatui",
+    "rngs",
+    "Seedable",
+    "twofish",
+    "typenum",
+    "undeterministic"
+  ],
+  "rust-analyzer.linkedProjects": [
+    "./Cargo.toml",
+    "./apps/cli/Cargo.toml",
+    "./mirage/Cargo.toml"
+  ],
+  "rust-analyzer.showUnlinkedFileNotification": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.fixAll": "explicit"
+  }
+}

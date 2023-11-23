@@ -1,0 +1,14 @@
+[package]
+name = "mirage-cli"
+version = "0.1.0-alpha"
+authors = ["sirlolcat"]
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27"
+ratatui = "0.24.0"
+mirage = { path = "../../mirage" }
+
+[[bin]]
+name = "mirage-cli"
+path = "main.rs"
